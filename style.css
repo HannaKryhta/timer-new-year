@@ -1,0 +1,103 @@
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+body{
+    background-image: url(photo.avif);
+    background-repeat: no-repeat;
+   background-size: cover;
+   background-color: red;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    font-size: 60px;
+    background-color:  rgba(251, 248, 249, 0.9);
+    padding: 20px;
+    border: 3px solid black;
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.christmas{
+    background-color:  rgba(251, 248, 249, 0.82); 
+    height: 300px;
+    width: 200px;
+    margin-top: 50px;
+    border: 3px solid black;
+}
+.block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+h3{
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+.days, .hours, .minutes, .seconds{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+}
+.red{
+    font-size: 60px;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    color: red;
+}
+button{
+   margin-left: 100px;
+   border: none;
+}
+@import url("https://fonts.googleapis.com/css?family=Molle:400i");
+body {
+  margin: 0;
+  background-color: #1f263b;
+}
+
+h1 {
+  color: #cfcfcf;
+  font-family: "Molle", cursive;
+  font-size: 5em;
+}
+
+.content {
+  max-width: 70%;
+  height: 300px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* ---- particles.js container ---- */
+
+
+
+@media all and (max-width: 800px) {
+    h1 {
+    font-size: 40px;
+     }
+    }
+
+    @media all and (max-width: 500px) {
+        h1 {
+        font-size: 30px;
+         }
+        }
